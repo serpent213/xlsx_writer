@@ -31,3 +31,14 @@ test*.xlsx
 priv/native/*.so
 /native/xlsx_writer/target/
 /examples/output/
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
